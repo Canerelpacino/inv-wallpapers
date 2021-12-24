@@ -1,7 +1,7 @@
 <template>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <body>
-  <img src="../assets/b2.png" width="350" height="350">
+  <img src="../assets/c1w1.png" width="230.712891" height="500">
   </body>
 </template>
 
