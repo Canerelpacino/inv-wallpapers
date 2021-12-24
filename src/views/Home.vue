@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <body style="background-color: #151515;">
     <img alt="friends" src="../assets/friends.png" width="350" height="250">
-    <button v-on:click="select" class="button1">SELECT FRIEND</button>
+    <button v-on:click="select" class="button1">SELECT CHARACTER</button>
     </body>
   </div>
 </template>
