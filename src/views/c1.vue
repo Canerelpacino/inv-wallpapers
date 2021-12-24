@@ -32,7 +32,6 @@ export default {
 <style scoped>
 .friends {
   margin: auto;
-  horiz-align: center;
   display: block;
   position: absolute;
   top: 4%;
