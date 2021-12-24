@@ -3,9 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <body style="background-color: #151515;">
     <img alt="friends" src="../assets/friends.png" width="350" height="250">
-      <button class="bn54">
-        <span class="bn54span" v-on:click="select">SELECT CHARACTER</span>
-      </button>
+    <button v-on:click="select" class="button1">SELECT FRIEND</button>
     </body>
   </div>
 </template>
@@ -14,7 +12,6 @@
 
 export default {
   name: 'Home',
-
   methods: {
     select: function () {
       this.$router.push('/selectfriends')
@@ -38,75 +35,19 @@ body{
   top: 50%;
   left: 17%;
 }
-.bn54 {
-  position: relative;
-  left: 100px;
-  top: 50px;
+.button1{
+
+  display: inline-block;
   outline: none;
-  text-decoration: none;
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
-  text-transform: uppercase;
-  height: 45px;
-  width: 130px;
-  opacity: 1;
-  background-color: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.6);
-}
-
-.bn54 .bn54span {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #000000;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 0.7px;
-}
-
-.bn54:hover {
-  animation: bn54rotate 0.7s ease-in-out both;
-}
-
-.bn54:hover .bn54span {
-  animation: bn54storm 0.7s ease-in-out both;
-  animation-delay: 0.06s;
-}
-
-@keyframes bn54rotate {
-  0% {
-    transform: rotate(0deg) translate3d(0, 0, 0);
-  }
-  25% {
-    transform: rotate(3deg) translate3d(0, 0, 0);
-  }
-  50% {
-    transform: rotate(-3deg) translate3d(0, 0, 0);
-  }
-  75% {
-    transform: rotate(1deg) translate3d(0, 0, 0);
-  }
-  100% {
-    transform: rotate(0deg) translate3d(0, 0, 0);
-  }
-}
-
-@keyframes bn54storm {
-  0% {
-    transform: translate3d(0, 0, 0) translateZ(0);
-  }
-  25% {
-    transform: translate3d(4px, 0, 0) translateZ(0);
-  }
-  50% {
-    transform: translate3d(-3px, 0, 0) translateZ(0);
-  }
-  75% {
-    transform: translate3d(2px, 0, 0) translateZ(0);
-  }
-  100% {
-    transform: translate3d(0, 0, 0) translateZ(0);
-  }
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 14px 24px;
+  border: none;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+  color: #fff;
 }
 </style>
