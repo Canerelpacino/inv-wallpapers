@@ -24,7 +24,7 @@ export default {
     },
     bg3: function () {
       this.$router.push('/c4')
-    },
+    }
   }
 }
 </script>
