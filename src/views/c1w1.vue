@@ -20,6 +20,8 @@ export default {
 .wallpaper {
   margin: auto;
   display: block;
+  position: absolute;
+  top: 25%;
 }
 h3 {
   font-size: 30px;
