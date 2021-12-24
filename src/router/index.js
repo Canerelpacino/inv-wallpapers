@@ -19,6 +19,8 @@ import c4w1 from '../views/c4w1'
 import c4w2 from '../views/c4w2'
 import c4w3 from '../views/c4w3'
 import c4w4 from '../views/c4w4'
+import c2w2 from '../views/c2w2'
+import c3w4 from '../views/c3w4'
 
 const routes = [
   {
@@ -79,7 +81,7 @@ const routes = [
   {
     path: '/c2w2',
     name: 'c2w2',
-    component: c1w2
+    component: c2w2
   },
   {
     path: '/c2w3',
@@ -109,7 +111,7 @@ const routes = [
   {
     path: '/c3w4',
     name: 'c3w4',
-    component: c1w3
+    component: c3w4
   },
   {
     path: '/c4w1',
