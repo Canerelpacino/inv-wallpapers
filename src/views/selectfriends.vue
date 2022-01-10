@@ -3,7 +3,7 @@
   <body>
   <div class="row section-intro"><div class="col-twelve"><h5>by caner#0251</h5><h1>Create your IF Wallpaper</h1><p class="lead"><span style="color: rgb(150, 149, 149);"></span></p></div></div>
   <div class="container">
-   <div class="row" style="margin-bottom: 20px;"><div class="col-md-3 col-6" style="margin-bottom: 20px;"><div style="width: 100%; padding-bottom: 0px;"><div role="status" class="spinner-border" style="display: none; position: absolute; top: 50%; left: 50%;"></div><img src="../assets/n1.png" alt="hapebeasts" style="width: 100%; max-width: 300px; height: auto; display: block;"></div></div><div class="col-md-3 col-6" style="margin-bottom: 20px;"><div style="width: 100%; padding-bottom: 0px;"><div role="status" class="spinner-border" style="display: none; position: absolute; top: 50%; left: 50%;"></div><img src="../assets/n2.png" alt="hapebeasts" style="width: 100%; max-width: 300px; height: auto; display: block;"></div></div><div class="col-md-3 col-6" style="margin-bottom: 20px;"><div style="width: 100%; padding-bottom: 0px;"><div role="status" class="spinner-border" style="display: none; position: absolute; top: 50%; left: 50%;"></div><img src="../assets/n3.png" alt="hapebeasts" style="width: 100%; max-width: 300px; height: auto; display: block;"></div></div><div class="col-md-3 col-6" style="margin-bottom: 20px;"><div style="width: 100%; padding-bottom: 0px;"><div role="status" class="spinner-border" style="display: none; position: absolute; top: 50%; left: 50%;"></div><img src="../assets/n4.png" alt="hapebeasts" style="width: 100%; max-width: 300px; height: auto; display: block;"></div></div></div>
+   <div class="row" style="margin-bottom: 20px;"><div class="col-md-3 col-6" style="margin-bottom: 20px;"><div style="width: 100%; padding-bottom: 0px;"><div role="status" class="spinner-border" style="display: none; position: absolute; top: 50%; left: 50%;"></div><img src="../assets/n1.png" v-on:click="bg" alt="hapebeasts" style="width: 100%; max-width: 300px; height: auto; display: block;"></div></div><div class="col-md-3 col-6" style="margin-bottom: 20px;"><div style="width: 100%; padding-bottom: 0px;"><div role="status" class="spinner-border" style="display: none; position: absolute; top: 50%; left: 50%;"></div><img src="../assets/n2.png" v-on:click="bg2" alt="hapebeasts" style="width: 100%; max-width: 300px; height: auto; display: block;"></div></div><div class="col-md-3 col-6" style="margin-bottom: 20px;"><div style="width: 100%; padding-bottom: 0px;"><div role="status" class="spinner-border" style="display: none; position: absolute; top: 50%; left: 50%;"></div><img src="../assets/n3.png" v-on:click="bg3" alt="hapebeasts" style="width: 100%; max-width: 300px; height: auto; display: block;"></div></div><div class="col-md-3 col-6" style="margin-bottom: 20px;"><div style="width: 100%; padding-bottom: 0px;"><div role="status" class="spinner-border" style="display: none; position: absolute; top: 50%; left: 50%;"></div><img src="../assets/n4.png" v-on:click="bg3" alt="hapebeasts" style="width: 100%; max-width: 300px; height: auto; display: block;"></div></div></div>
   </div>
   </body>
 </template>
@@ -109,8 +109,6 @@ h1{
 }
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }

@@ -23,20 +23,9 @@ export default {
 body{
   background-color: #151515;
 }
-.btn{
-  background-color: #BEBEBE;
-  border: none;
-  padding: 20px 45px;
-  text-align: center;
-  font-size: 20px;
-  display: inline-block;
-  font-family: Candara;
-  position: absolute;
-  top: 50%;
-  left: 17%;
-}
 .button1{
-
+  margin-block-start: 7em;
+  margin-block-end: 1.67em;
   display: inline-block;
   outline: none;
   cursor: pointer;
@@ -44,7 +33,7 @@ body{
   line-height: 20px;
   font-weight: 600;
   border-radius: 8px;
-  padding: 14px 24px;
+  padding: 22px 24px;
   border: none;
   transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
   background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
@@ -80,7 +69,7 @@ body{
 }
 h5 {
   text-transform: uppercase;
-  font-family: "Berlin Sans FB";
+  font-family: Arial;
   text-rendering: optimizeLegibility;
   font-variant-ligatures: common-ligatures;
   margin: 0;
@@ -111,7 +100,7 @@ h5 {
   }}
 h1{
   text-transform: uppercase;
-  font-family: "Berlin Sans FB";
+  font-family: Arial;
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-variant-ligatures: common-ligatures;
