@@ -59,7 +59,7 @@ export default {
 }
 h5 {
   text-transform: uppercase;
-  font-family: Bahnschrift;
+  font-family: Arial;
   text-rendering: optimizeLegibility;
   font-variant-ligatures: common-ligatures;
   margin: 0;
@@ -90,7 +90,7 @@ h1 {
 }}
 h1{
   text-transform: uppercase;
-  font-family: Bahnschrift;
+  font-family: Arial;
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-variant-ligatures: common-ligatures;
