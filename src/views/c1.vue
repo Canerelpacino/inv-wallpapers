@@ -66,7 +66,7 @@ export default {
 }
 h5 {
   text-transform: uppercase;
-  font-family: "Berlin Sans FB";
+  font-family: Bahnschrift;
   text-rendering: optimizeLegibility;
   font-variant-ligatures: common-ligatures;
   margin: 0;
@@ -97,7 +97,7 @@ h5 {
   }}
 h1{
   text-transform: uppercase;
-  font-family: "Berlin Sans FB";
+  font-family: Bahnschrift;
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-variant-ligatures: common-ligatures;
